@@ -1,6 +1,6 @@
 # renpy-template
 
-Create visual novels with Ren'Py Template.
+📖 Write visual novels with Ren'Py Template.
 
 ## Prerequisites
 
