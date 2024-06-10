@@ -21,9 +21,17 @@ Rename the project:
 git grep -l 'Renpy Template' | xargs sed -i '' -e 's/Renpy Template/My Novel/g'
 ```
 
+```sh
+git grep -l 'Renpy Template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
+```
+
 ## Run
 
 1. Open `Ren'Py Launcher`
 2. Click `refresh`
 3. Select `renpy-template`
 4. Click `Launch Project`
+
+## License
+
+[MIT](LICENSE)
