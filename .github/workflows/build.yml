@@ -14,12 +14,11 @@ jobs:
 
       - name: Setup Ren'Py
         uses: remarkablegames/setup-renpy@v1
-        id: renpy
         with:
           web: true
 
       - name: Web build
-        run: renpy-cli ${{ steps.renpy.outputs.launcher }} web_build . --destination dist
+        run: renpy-launcher web_build . --destination dist
 
       - name: Upload artifacts
         if: github.ref_name == 'master'
