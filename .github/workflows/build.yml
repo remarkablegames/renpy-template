@@ -20,16 +20,16 @@ jobs:
       - name: Web build
         run: renpy-launcher web_build . --destination dist
 
-      - name: Upload artifacts
-        if: github.ref_name == 'master'
-        uses: actions/upload-artifact@v4
-        with:
-          name: web-artifact
-          path: dist
-
       - name: Deploy
         if: github.ref_name == 'master'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
+
+      - name: Upload artifacts
+        if: github.ref_name == 'master'
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: dist
