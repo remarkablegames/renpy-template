@@ -4,6 +4,10 @@
 
 # renpy-template
 
+![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)
+[![build](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml)
+[![lint](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml)
+
 📖 Write visual novels with Ren'Py Template.
 
 Play the game on:
