@@ -16,7 +16,13 @@ Play the game on:
 
 ## Prerequisites
 
-- [Ren'Py SDK](https://www.renpy.org/latest.html)
+Download [Ren'Py SDK](https://www.renpy.org/latest.html).
+
+Symlink `renpy`:
+
+```sh
+sudo ln -sf $(realpath <path>/renpy-sdk/renpy.sh) /usr/local/bin/renpy
+```
 
 ## Install
 
@@ -39,31 +45,17 @@ git grep -l 'Renpy Template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
 
 ## Run
 
-Change directory to Ren'Py SDK:
-
-```sh
-cd path/to/renpy-sdk
-```
-
-### CLI
-
 Launch the project:
 
 ```sh
-./renpy.sh path/to/renpy-template
+renpy .
 ```
 
-### GUI
-
-Open `Ren'Py Launcher`:
+Or open `Ren'Py Launcher`:
 
 ```sh
-./renpy.sh launcher
+renpy
 ```
-
-Click `refresh` and select `renpy-template`
-
-Click `Launch Project`
 
 ## License
 
