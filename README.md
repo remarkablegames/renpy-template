@@ -21,7 +21,7 @@ Download [Ren'Py SDK](https://www.renpy.org/latest.html).
 Symlink `renpy`:
 
 ```sh
-sudo ln -sf $(realpath <path>/renpy-sdk/renpy.sh) /usr/local/bin/renpy
+sudo ln -sf "$(realpath <path>/renpy-sdk/renpy.sh)" /usr/local/bin/renpy
 ```
 
 ## Install
