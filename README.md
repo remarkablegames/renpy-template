@@ -16,7 +16,11 @@ Play the game on:
 
 ## Prerequisites
 
-Download [Ren'Py SDK](https://www.renpy.org/latest.html).
+Download [Ren'Py SDK](https://www.renpy.org/latest.html):
+
+```sh
+git clone https://github.com/remarkablegames/renpy-sdk.git
+```
 
 Symlink `renpy`:
 
