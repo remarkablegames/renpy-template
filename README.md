@@ -25,7 +25,7 @@ git clone https://github.com/remarkablegames/renpy-sdk.git
 Symlink `renpy`:
 
 ```sh
-sudo ln -sf "$(realpath ./renpy-sdk/renpy.sh)" /usr/local/bin/renpy
+sudo ln -sf "$(realpath renpy-sdk/renpy.sh)" /usr/local/bin/renpy
 ```
 
 ## Install
