@@ -20,6 +20,9 @@ jobs:
       - name: Web build
         run: renpy-launcher web_build . --destination dist
 
+      - name: Copy web presplash
+        run: cp web-presplash.jpg dist/web-presplash.jpg
+
       - name: Deploy
         if: github.ref_name == 'master'
         uses: JamesIves/github-pages-deploy-action@v4
