@@ -34,16 +34,21 @@ jobs:
         with:
           web: true
 
+      - name: Remove extraneous files packages
+        run: rm -rf screenshots
+
       - name: Build packages
-        run: renpy-launcher distribute . --dest dists
+        run: renpy-launcher distribute . --dest ../dists
 
       - name: Rename packages
         run: |
-          # e.g., "dists/psych-101-1.2.3-linux.tar.bz2" -> "dists/linux.tar.bz2"
-          for filename in dists/*; do mv "$filename" "dists/${filename##*-}"; done
+          # e.g., "../dists/psych-101-1.2.3-linux.tar.bz2" -> "../dists/linux.tar.bz2"
+          for filename in ../dists/*; do mv "$filename" "../dists/${filename##*-}"; done
 
       - name: Build web
-        run: renpy-launcher web_build . --destination dists/web
+        run: |
+          renpy-launcher web_build . --destination ../dists/web
+          cp web-presplash.jpg ../dists/web/web-presplash.jpg
 
       - name: Setup butler
         uses: remarkablegames/setup-butler@v1
@@ -54,12 +59,12 @@ jobs:
           for i in "web web" "linux.tar.bz2 linux" "mac.zip osx" "market.zip win-osx-linux" "pc.zip win-linux" "win.zip win"
           do
             set -- $i
-            butler push dists/$1 ${{ github.repository }}:$2 --userversion-file version.txt
+            butler push ../dists/$1 ${{ github.repository }}:$2 --userversion-file version.txt
           done
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
 
       - name: Upload Release Artifact
-        run: gh release upload ${{ needs.release.outputs.tag_name }} $(ls dists/*)
+        run: gh release upload ${{ needs.release.outputs.tag_name }} $(ls ../dists/*.zip)
         env:
           GITHUB_TOKEN: ${{ github.token }}
