@@ -47,6 +47,12 @@ git grep -l 'Renpy Template' | xargs sed -i '' -e 's/Renpy Template/My Novel/g'
 git grep -l 'renpy-template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
 ```
 
+Replace the assets:
+
+- `web-presplash.jpg`
+- `game/gui/main_menu.png`
+- `game/gui/window_icon.png`
+
 ## Run
 
 Launch the project:
