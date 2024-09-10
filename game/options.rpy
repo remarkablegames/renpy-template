@@ -30,6 +30,7 @@ define config.version = "1.0.0-alpha" # x-release-please-version
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+{a=https://github.com/remarkablegames/renpy-template#credits}Credits{/a}
 """)
 
 
