@@ -14,6 +14,12 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/renpy-template)
 
+## Credits
+
+### Audio
+
+- [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
+
 ## Prerequisites
 
 Download [Ren'Py SDK](https://www.renpy.org/latest.html):
