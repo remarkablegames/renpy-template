@@ -81,10 +81,18 @@ Press `Shift`+`R` to reload the game.
 
 Press `Shift`+`D` to display the developer menu.
 
-Clean the cache:
+## Cache
+
+Clear the cache:
 
 ```sh
 find game -name "*.rpyc" -delete
+```
+
+Or open `Ren'Py Launcher` > `Force Recompile`:
+
+```sh
+renpy
 ```
 
 ## Lint
