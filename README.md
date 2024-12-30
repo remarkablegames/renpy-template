@@ -79,7 +79,7 @@ renpy
 
 Press `Shift`+`R` to reload the game.
 
-Press `Shift`+`D` to display the developer menu.
+Press `Shift`+`D` to open the developer menu.
 
 ## Cache
 
