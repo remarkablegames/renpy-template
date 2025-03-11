@@ -22,7 +22,7 @@ Play the game on:
 
 ### Audio
 
-- [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
+- [Kenney](https://kenney.nl/assets/interface-sounds)
 
 ## Prerequisites
 
