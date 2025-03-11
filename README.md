@@ -38,6 +38,12 @@ Symlink `renpy`:
 sudo ln -sf "$(realpath renpy-sdk/renpy.sh)" /usr/local/bin/renpy
 ```
 
+Check the version:
+
+```sh
+renpy --version
+```
+
 ## Install
 
 Clone the repository to the `Projects Directory`:
