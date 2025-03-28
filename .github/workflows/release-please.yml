@@ -74,4 +74,4 @@ jobs:
       - name: Upload Release Artifact
         run: gh release upload ${{ needs.release.outputs.tag_name }} $(ls ../dists/*.zip)
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
