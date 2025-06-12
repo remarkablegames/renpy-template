@@ -1,4 +1,4 @@
-﻿# The game ends here.
+# The game ends here.
 
 label end:
 
