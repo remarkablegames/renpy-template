@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/remarkablegames/renpy-template/master/game/gui/window_icon.png" alt="Renpy Template">
 </p>
 
-# Renpy Template
+# Ren'Py Template
 
 ![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)
 [![build](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml)
