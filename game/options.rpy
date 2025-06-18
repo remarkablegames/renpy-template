@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Renpy Template")
+define config.name = _("Ren'Py Template")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
