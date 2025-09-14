@@ -65,9 +65,10 @@ git grep -l 'renpy-template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
 
 Replace the assets:
 
-- [ ] `web-presplash.jpg`
 - [ ] `game/gui/main_menu.png`
 - [ ] `game/gui/window_icon.png`
+- [ ] `web-icon.png`
+- [ ] `web-presplash.webp`
 
 ## Run
 

@@ -39,7 +39,7 @@ jobs:
           find .
           ! -name "progressive_download.txt"
           ! -name "version.txt"
-          ! -name "web-presplash.*"
+          ! -name "web-*"
           ! -path "*/.*"
           ! -path "*game*"
           -delete
