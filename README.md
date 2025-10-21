@@ -14,6 +14,11 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/renpy-template)
 
+Or download:
+
+- [Mac](https://github.com/remarkablegames/renpy-template/releases/latest/download/mac.zip)
+- [Windows](https://github.com/remarkablegames/renpy-template/releases/latest/download/pc.zip)
+
 ## Credits
 
 ### Art
@@ -67,6 +72,8 @@ Replace the assets:
 
 - [ ] `game/gui/main_menu.png`
 - [ ] `game/gui/window_icon.png`
+- [ ] [`icon.icns`](https://anyconv.com/png-to-icns-converter/)
+- [ ] [`icon.ico`](https://anyconv.com/png-to-ico-converter/)
 - [ ] `web-icon.png`
 - [ ] `web-presplash.webp`
 

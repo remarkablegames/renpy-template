@@ -20,6 +20,7 @@ jobs:
       - name: Delete unnecessary files
         run: >
           find .
+          ! -name "icon.*"
           ! -name "progressive_download.txt"
           ! -name "web-*"
           ! -path "*/.*"
