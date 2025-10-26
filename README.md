@@ -10,7 +10,7 @@
 
 📖 Write visual novels with Ren'Py Template.
 
-Play the game on:
+Play the game:
 
 - [remarkablegames](https://remarkablegames.org/renpy-template)
 
