@@ -4,7 +4,7 @@
 
 # Ren'Py Template
 
-![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)
+[![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)](https://github.com/remarkablegames/renpy-template/releases)
 [![build](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml)
 
