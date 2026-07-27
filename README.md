@@ -12,7 +12,7 @@
 
 Play the game:
 
-- [remarkablegames](https://remarkablegames.org/renpy-template)
+- [remarkablegames](https://remarkablegames.org/renpy-template/)
 
 Or download:
 
