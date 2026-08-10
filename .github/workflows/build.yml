@@ -30,12 +30,15 @@ jobs:
           ! -path "*game*"
           -delete
 
-      - name: Build desktop distributions
-        if: github.event_name == 'workflow_dispatch'
-        run: renpy-launcher distribute . --dest ../dists
-
       - name: Build web
         run: renpy-launcher web_build . --destination web
+
+      - name: Page test
+        uses: remarkablemark/page-test-action@v1
+        with:
+          url: http://localhost:8000
+          start: python -m http.server --directory web
+          wait-on: http://localhost:8000
 
       - name: Deploy site
         if: github.event_name != 'workflow_dispatch' && github.ref_name == 'master'
@@ -51,6 +54,10 @@ jobs:
           cp ../dists/*-linux.tar.bz2 artifact
           cp ../dists/*-mac.zip artifact
           cp -R web artifact
+
+      - name: Build desktop distributions
+        if: github.event_name == 'workflow_dispatch'
+        run: renpy-launcher distribute . --dest ../dists
 
       - name: Upload distribution artifact
         if: github.event_name == 'workflow_dispatch'
