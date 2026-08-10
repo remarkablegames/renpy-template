@@ -46,6 +46,10 @@ jobs:
         with:
           directory: web
 
+      - name: Build desktop distributions
+        if: github.event_name == 'workflow_dispatch'
+        run: renpy-launcher distribute . --dest ../dists
+
       - name: Prepare distribution artifact
         if: github.event_name == 'workflow_dispatch'
         run: |
@@ -54,10 +58,6 @@ jobs:
           cp ../dists/*-linux.tar.bz2 artifact
           cp ../dists/*-mac.zip artifact
           cp -R web artifact
-
-      - name: Build desktop distributions
-        if: github.event_name == 'workflow_dispatch'
-        run: renpy-launcher distribute . --dest ../dists
 
       - name: Upload distribution artifact
         if: github.event_name == 'workflow_dispatch'
