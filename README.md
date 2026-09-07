@@ -10,11 +10,11 @@
 
 📖 Write visual novels with Ren'Py Template.
 
-Play the game:
+Play in your browser:
 
 - [remarkablegames](https://remarkablegames.org/renpy-template/)
 
-Or download:
+Or download for desktop:
 
 - [Windows](https://github.com/remarkablegames/renpy-template/releases/latest/download/win.zip)
 - [Mac](https://github.com/remarkablegames/renpy-template/releases/latest/download/mac.zip)
