@@ -18,7 +18,7 @@ label start:
 
     e "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e vhappy "Once you add a story, pictures, and music, you can release it to the world!"
 
     # Jump to a label.
 
