@@ -29,6 +29,7 @@ Or download for desktop:
 ### Audio
 
 - [Kenney](https://kenney.nl/assets/interface-sounds)
+- [Text/Dialogue Bleeps Pack](https://dmochas-assets.itch.io/dmochas-bleeps-pack)
 
 ## Prerequisites
 
