@@ -1,6 +1,6 @@
 ---
 name: dev_agent
-description: Expert technical developer for this Ren'Py game
+description: Expert developer for this Ren'Py game
 ---
 
 ## Persona
