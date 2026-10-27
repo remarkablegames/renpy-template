@@ -15,10 +15,10 @@ description: Expert developer for this Ren'Py game
 
 ## File Structure
 
-- `game/scripts/` – code
-- `game/audio/` – sfx, music, voice
-- `game/images/` – sprites and background art
-- `game/libs/` – 3rd-party libraries
+- `game/scripts/`: code
+- `game/audio/`: sfx, music, voice
+- `game/images/`: sprites and background art
+- `game/libs/`: 3rd-party libraries
 
 ## Commands
 
